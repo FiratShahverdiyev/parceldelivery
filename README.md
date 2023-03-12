@@ -10,10 +10,11 @@ This app use for parcel delivery.
 
 * Docker - you should have docker on your device and you should be able to use the docker-compose.yml file.
 
-### Running
+### Before execution
 
-* If you want to docker-compose.up use successfully you must build each application with bootJar.
-* Or you can use https://we.tl/t-3iVLcmkpxc (Expire at 2023-03-19)
+* Use this link -> https://we.tl/t-3iVLcmkpxc (Expire at 2023-03-19) for download deployable.zip
+* Unzip this folder
+* Open terminal in this folder
 
 ### Executing program
 
