@@ -13,7 +13,7 @@ This app use for parcel delivery.
 ### Running
 
 * If you want to docker-compose.up use successfully you must build each application with bootJar.
-* Or you can use deployable.zip
+* Or you can use https://we.tl/t-3iVLcmkpxc (Expire at 2023-03-19)
 
 ### Executing program
 
