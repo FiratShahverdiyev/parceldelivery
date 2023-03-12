@@ -1,62 +1,27 @@
 # parceldelivery
 
-Simple overview of use/purpose.
+This app use for parcel delivery.
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
+* Software tested on Windows 10 and MACOS system successfully.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Docker - you should have docker on your device and you should be able to use the docker-compose.yml file.
 
-### Installing
+### Running
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* If you want to docker-compose.up use successfully you must build each application with bootJar.
+* Or you can use deployable.zip
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+docker-compose.exe up --build
 ```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info :
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Firat Shahverdiyev https://www.linkedin.com/in/firat-shahverdiyev-19a673199/
