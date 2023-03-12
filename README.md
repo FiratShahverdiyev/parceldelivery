@@ -12,7 +12,7 @@ This app use for parcel delivery.
 
 ### Before execution
 
-* Use this link -> https://we.tl/t-3iVLcmkpxc (Expire at 2023-03-19) for download deployable.zip
+* Use this link -> https://we.tl/t-XB2WVIPvbE (Expire at 2023-03-19) for download deployable.zip
 * Unzip this folder
 * Open terminal in this folder
 
