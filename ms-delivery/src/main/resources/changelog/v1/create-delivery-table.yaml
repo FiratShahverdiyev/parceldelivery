@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Delivery table
+      author: Firat Shahverdiyev
+      changes:
+        - createTable:
+            schemaName: public
+            tableName: delivery
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKeyName: pk_delivery
+                    primaryKey: true
+              - column:
+                  name: status
+                  type: varchar(255)
+              - column:
+                  name: courier_id
+                  type: int
+              - column:
+                  name: order_id
+                  type: int

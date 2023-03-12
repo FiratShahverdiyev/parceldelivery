@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: Create Order table
+      author: Firat Shahverdiyev
+      changes:
+        - createTable:
+            schemaName: public
+            tableName: orders
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKeyName: pk_order
+                    primaryKey: true
+              - column:
+                  name: status
+                  type: varchar(255)
+              - column:
+                  name: details
+                  type: varchar(255)
+              - column:
+                  name: longitude
+                  type: float
+                  constraints:
+                    nullable: false
+              - column:
+                  name: latitude
+                  type: float
+                  constraints:
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: int

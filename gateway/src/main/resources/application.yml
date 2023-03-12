@@ -1,0 +1,34 @@
+client:
+  order:
+    name: ms-order
+    url: http://ms-order:8080/
+  courier:
+    name: ms-courier
+    url: http://ms-courier:8080/
+  delivery:
+    name: ms-delivery
+    url: http://ms-delivery:8080/
+  auth-user:
+    name: ms-auth-user
+    url: http://ms-auth-user:8080/
+  auth-admin:
+    name: ms-auth-admin
+    url: http://ms-auth-admin:8080/
+
+security:
+  jwt:
+    base64-secret: sdsf/YS9jxpSAnB6ZUbqHGRfqbYdkPJ1lNS/RayK9ysqOlQ2PlgsQlXs0QMepA5lwb4jMzwunbLmIPxIAbJqYA==
+    access-token-validity-in-milliseconds: 60000
+  cors:
+    origin: "*"
+    method: "*"
+
+application:
+  swagger:
+    title: Welcome to GATEWAY!
+    description: API used for all!
+    version: 3.0.0
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092

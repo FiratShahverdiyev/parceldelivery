@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/orders
+    username: postgres
+    password: 4y7sV96vA9wv46VR
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      pool-name: ms-order
+      auto-commit: false
+      connection-timeout: 10000
+      idle-timeout: 60000
+      max-lifetime: 120000
+      minimum-idle: 5
+      maximum-pool-size: 10
+  jpa:
+    database: postgresql
+    show-sql: false
+  liquibase:
+    change-log: db/changelog/changelog-master.yaml
+  kafka:
+    bootstrap-servers: kafka:9092
+
+security:
+  cors:
+    origin: "*"
+    method: "*"
+
+url:
+  csp: "script-src 'self' https://trustedscripts.example.com; object-src https://trustedplugins.example.com; report-uri /csp-report-endpoint/"
+  ignore: /error,/favicon.ico,/,/csrf,/actuator/**,/swagger-ui.html,/app/**/*.{js,html},/i18n/**,/content/**,/swagger-ui/index.html,/v2/api-docs,/webjars/**,/swagger-resources/**
+
+application:
+  swagger:
+    title: Welcome to MS-ORDER!
+    description: API used for manage orders!
+    version: 3.0.0

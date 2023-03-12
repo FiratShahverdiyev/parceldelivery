@@ -1,0 +1,24 @@
+package com.parceldelivery.msdelivery.configuration;
+
+import org.apache.kafka.clients.admin.NewTopic;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.kafka.config.TopicBuilder;
+
+@Configuration
+public class KafkaTopicConfiguration {
+
+    @Bean
+    public NewTopic createDeliveryTopic() {
+        return TopicBuilder.name("create-delivery")
+                .build();
+    }
+
+    @Bean
+    public NewTopic updateCourierStatusTopic() {
+        return TopicBuilder.name("update-courier-status")
+                .build();
+    }
+
+}
+
