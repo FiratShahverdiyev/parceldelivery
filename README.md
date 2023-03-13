@@ -19,7 +19,12 @@ This app use for parcel delivery.
 ### Executing program
 
 ```
-docker-compose.exe up --build
+docker-compose.exe up --build 
+```
+or 
+
+```
+docker-compose.yml up --build 
 ```
 
 ### Open API-GATEWAY documentation
