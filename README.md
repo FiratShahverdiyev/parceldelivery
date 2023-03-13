@@ -21,6 +21,11 @@ This app use for parcel delivery.
 ```
 docker-compose.exe up --build
 ```
+
+### Open API-GATEWAY documentation
+
+* Go to http://localhost:8080/swagger-ui.html after successfull execution
+
 ## Authors
 
 Contributors names and contact info :
